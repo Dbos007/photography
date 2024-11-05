@@ -1,0 +1,234 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo img{
+    height: 80px;
+    cursor: pointer;
+}
+ 
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-menu li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-menu a:hover{
+    background-color: brown;
+}
+
+.btn{
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+main{
+    margin: 100px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.first-child h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.first-child-bottom{
+    width: 500px;
+}
+
+.first-child-bottom p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.second-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.perfect-circle{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.perfect-flower{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.second-child-experiment{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-btn{
+    margin-top: 20px;
+}
+
+.action-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.first-action{
+    width: 500px;
+}
+
+.first-action h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.first-action p{
+    font-size: 20px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 70px;
+}
+
+.card{
+    background-color: rgb(235, 235, 235);
+}
+
+.card img{
+    height: 200px;
+    width: 100%;
+    border-bottom-right-radius: 100px;
+}
+
+.card-text{
+    padding: 20px;
+}
+
+.card-text h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-text p{
+    font-size: 18px;
+}
+
+.card-text a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    height: 20px;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.newsletter-text p{
+    color: white;
+    font-size: 18px;
+}
+
+.newsletter-input input{
+    padding: 10px;
+}
+
+.newsletter-input button{
+    padding: 7px 10px 10px 7px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(0, 18, 0);
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.text{
+    padding: 20px;
+}
+
+.text h1{
+    color: white;
+    font-size: 20px;
+}
+
+.text p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 500px;
+}
+
+.text a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section img{
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.hero-btn{
+    margin-top: 20px;
+}
