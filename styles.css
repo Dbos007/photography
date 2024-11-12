@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    background-color: orangered;
+    height: 750px;
+    width: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    height: 650px;
+    width: 1000px;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 70px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+}
+
+.section {
+    flex: 1;
+    padding: 20px;
+}
+
+.first {
+    background-color: beige;
+}
+
+.profile {
+    margin-bottom: 40px;
+}
+
+.profile-pic {
+    display: inline-block;
+}
+
+.profile-text {
+    display: inline-block;
+}
+
+.icons {
+    margin-bottom: 350px;
+}
+
+.icons1 {
+    padding-bottom: 20px;
+}
+
+.icons2 {
+    padding-bottom: 20px;
+}
+
+.icons3 {
+    padding-bottom: 20px;
+}
+
+.icons4 {
+    padding-bottom: 20px;
+}
+
+.icon1 {
+    display: inline-block;
+}
+
+.icon-text1 {
+    display: inline-block;
+}
+
+.icon2 {
+    display: inline-block;
+}
+
+.icon-text2 {
+    display: inline-block;
+}
+
+.icon3 {
+    display: inline-block;
+}
+
+.icon-text3 {
+    display: inline-block;
+}
+
+.icon4 {
+    display: inline-block;
+}
+
+.icon-text4 {
+    display: inline-block;
+}
+
+.icon5 {
+    display: inline-block;
+}
+
+.icon-text5 {
+    display: inline-block;
+}
+
+.icon6 {
+    display: inline-block;
+}
+
+.icon-text6 {
+    display: inline-block;
+}
+
+.middle {
+    flex: 3;
+    background-color: white;
+}
+
+.middle h1 {
+    padding-bottom: 40px;
+    font-family: "Roboto variant0", Tofu;
+}
+
+.middle h4 {
+    padding-bottom: 10px;
+}
+
+.middle p {
+    padding-bottom: 40px;
+}
+
+.tables {
+    margin-bottom: 60px;
+}
+
+.table {
+    text-align: left;
+    margin: 10px;
+    width: 500px;
+    height: 200px;
+}
+
+.anchor {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.Payment {
+    margin-bottom: 10px;
+}
+
+.table2 {
+    text-align: left;
+    width: 500px;
+    height: 30px;
+}
+
+.button {
+    background-color: white;
+    padding: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.third {
+    background-color: white;
+}
+
+.gchild1{
+    background-color: orangered;
+    height: 150px;
+    width: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 5px;
+    margin-top: 80px;
+}
+
+.ggchild{
+    color: white;
+    text-align: center;
+    padding: 7px;
+    justify-content: space-between;
+}
+
+.ggchild p {
+    padding: 5px;
+}
+
+.p1 {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.p2 {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ggchild h3 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.ggchild button{ 
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: orangered;
+    border-color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
